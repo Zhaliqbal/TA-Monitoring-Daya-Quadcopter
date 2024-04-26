@@ -1,7 +1,3 @@
-/*
-  Example of BH1750 library usage. This example initialises the BH1750 object using the default high resolution continuous mode and then makes a light level reading every second.
-*/
-
 #include <Wire.h>
 #include <BH1750.h>
 
