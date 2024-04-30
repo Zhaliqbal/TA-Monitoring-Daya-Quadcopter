@@ -1,6 +1,7 @@
 #define emitdiode 12
 
 unsigned long jeda = 2500;
+unsigned long jedar = 1500;
 
 void_setup(){
   pinMode(emitdiode, OUTPUT);
@@ -12,4 +13,8 @@ void_loop(){
   delay(jeda);
   digitalWrite(emitdiode, LOW);
   delay(jeda);
+  digitalWrite(emitdiode, HIGH);
+  delay(jedar);
+  digitalWrite(emitdiode, LOW);
+  delay(jedar);
 }
