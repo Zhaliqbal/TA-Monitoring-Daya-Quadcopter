@@ -1,6 +1,6 @@
 #define emitdiode 12
 
-unsigned long jeda = 2000;
+unsigned long jeda = 2500;
 
 void_setup(){
   pinMode(emitdiode, OUTPUT);
