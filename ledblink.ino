@@ -13,6 +13,7 @@ void_loop(){
   delay(jeda);
   digitalWrite(emitdiode, LOW);
   delay(jeda);
+  //Setelah ini, jeda kedipan LED semakin cepat 
   digitalWrite(emitdiode, HIGH);
   delay(jedar);
   digitalWrite(emitdiode, LOW);
